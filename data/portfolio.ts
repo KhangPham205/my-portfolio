@@ -30,7 +30,7 @@ export const experiences = [
     title: "Collaborator Developer",
     company: "GamApp Studio - UIT",
     location: "TP. Hồ Chí Minh",
-    period: "03/2024 – 6/2024",
+    period: "03/2024 – 06/2024",
     description:
       "Phát triển game và ứng dụng di động trong môi trường câu lạc bộ sinh viên UIT.",
   },
