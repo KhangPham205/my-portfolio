@@ -37,10 +37,10 @@ export default function Home() {
             {profile.title}
           </p>
           <p className="text-sm sm:text-base text-slate-400 leading-relaxed max-w-2xl">
-            Tôi là một kỹ sư phần mềm chuyên về hệ thống Backend và kiến trúc Microservices.
-            Tôi có đam mê với việc ứng dụng Clean Architecture, Event-Driven (Kafka) và Saga
-            pattern để xây dựng các hệ thống mạnh mẽ. Bên cạnh đó, tôi cũng đang nghiên cứu
-            sâu về độ tin cậy và quyền riêng tư của AI.
+            Chào mọi người, tớ là một kỹ sư phần mềm yêu thích phát triển Backend và xây dựng hệ thống phân tán. Tớ quan tâm đến Clean Architecture, Microservices, Event-Driven Architecture với Kafka, đồng thời luôn tìm cách xây dựng các hệ thống có khả năng mở rộng, ổn định và dễ bảo trì.
+          </p>
+          <p className="text-sm sm:text-base text-slate-400 leading-relaxed max-w-2xl">
+            Ngoài Backend, tớ cũng đang tìm hiểu sâu hơn về DevOps, AI Reliability và AI Privacy, với mong muốn tạo ra những giải pháp vừa hiệu quả vừa đáng tin cậy.
           </p>
           <div className="flex flex-wrap gap-2 pt-1">
             {["Java Spring Boot", "Golang", "Rust", "Microservices", "Kafka", "AI Privacy"].map((tag) => (
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
 
           {/* ── Inline contact links ── */}
-          <p className="text-slate-400 text-sm">Hãy liên hệ với tôi qua các kênh dưới đây:</p>
+          <p className="text-slate-400 text-sm">Hãy liên hệ với tớ qua các kênh dưới đây:</p>
           <div className="flex flex-wrap gap-4 sm:gap-6 pt-1 text-sm font-medium text-teal-400">
             <a href={`mailto:${profile.email}`} className="hover:underline hover:text-teal-300 transition-colors">
               ✉ Email
@@ -216,7 +216,6 @@ export default function Home() {
           <h2 className="text-xl sm:text-2xl font-bold border-b border-slate-800 pb-3 text-slate-200">
             Kết Nối
           </h2>
-          <p className="text-slate-400 text-sm">Hãy liên hệ với tôi qua các kênh dưới đây:</p>
           <div className="flex flex-wrap gap-4 sm:gap-6 pt-1 text-sm font-medium text-teal-400">
             <a href={`mailto:${profile.email}`} className="hover:underline hover:text-teal-300 transition-colors">
               ✉ Email
