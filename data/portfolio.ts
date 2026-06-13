@@ -12,22 +12,33 @@ export const profile = {
 export const experiences = [
   {
     title: "Software Intern",
-    company: "VNG Corporation",
+    company: "GreenNode - VNG Corp",
     location: "TP. Hồ Chí Minh",
+    period: "04/2026 – now",
     description:
       "Backend development, API design and distributed systems.",
   },
   {
     title: "Researcher",
-    company: "InSecLab",
-    location: "",
+    company: "UIT InSecLab",
+    location: "TP. Hồ Chí Minh",
+    period: "05/2025 – 05/2026",
     description:
       "AI Privacy, Trustworthy AI and Reliability Research.",
   },
   {
+    title: "Collaborator Developer",
+    company: "GamApp Studio - UIT",
+    location: "TP. Hồ Chí Minh",
+    period: "03/2024 – 6/2024",
+    description:
+      "Phát triển game và ứng dụng di động trong môi trường câu lạc bộ sinh viên UIT.",
+  },
+  {
     title: "B.Sc. Software Engineering",
     company: "UIT - VNU HCM",
-    location: "2023 - 2027",
+    location: "",
+    period: "2023 – 2027",
     description: "GPA 9.19/10 (4.0/4.0)",
   },
 ];
@@ -73,8 +84,8 @@ export const projects: Project[] = [
 export const techStacks = {
   Languages: ["Java", "Go", "Rust", "Python"],
   Backend: ["Spring Boot", "ASP.NET", "REST API"],
-  Databases: ["PostgreSQL", "MySQL", "Neo4j", "Redis"],
-  Infrastructure: ["Docker", "Kafka", "Nginx"],
+  Databases: ["PostgreSQL", "MySQL", "Neo4j", "Redis", "MongoDB", "Milvus"],
+  Infrastructure: ["Kubernetes", "Docker", "Kafka", "Nginx"],
   AI: ["PyTorch", "Transformers", "Ollama"],
 };
 

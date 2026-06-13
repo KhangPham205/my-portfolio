@@ -52,6 +52,20 @@ export default function Home() {
               </span>
             ))}
           </div>
+
+          {/* ── Inline contact links ── */}
+          <p className="text-slate-400 text-sm">Hãy liên hệ với tôi qua các kênh dưới đây:</p>
+          <div className="flex flex-wrap gap-4 sm:gap-6 pt-1 text-sm font-medium text-teal-400">
+            <a href={`mailto:${profile.email}`} className="hover:underline hover:text-teal-300 transition-colors">
+              ✉ Email
+            </a>
+            <a href={profile.github} target="_blank" rel="noreferrer" className="hover:underline hover:text-teal-300 transition-colors">
+              ⌥ GitHub
+            </a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer" className="hover:underline hover:text-teal-300 transition-colors">
+              ↗ LinkedIn
+            </a>
+          </div>
         </section>
 
         {/* ── Experience & Education ── */}
@@ -62,7 +76,14 @@ export default function Home() {
           <div className="space-y-6 sm:space-y-8">
             {experiences.map((exp) => (
               <div key={exp.title} className="border-l-2 border-slate-800 pl-4 ml-2">
-                <h3 className="text-base sm:text-lg font-semibold text-slate-200">{exp.title}</h3>
+                <div className="flex flex-wrap items-start justify-between gap-2">
+                  <h3 className="text-base sm:text-lg font-semibold text-slate-200">{exp.title}</h3>
+                  {exp.period && (
+                    <span className="shrink-0 font-mono text-xs text-teal-400/70 bg-teal-400/5 border border-teal-400/20 px-2 py-0.5 rounded">
+                      {exp.period}
+                    </span>
+                  )}
+                </div>
                 <div className="text-slate-400 text-xs sm:text-sm mt-1">
                   {exp.company}{exp.location ? ` • ${exp.location}` : ""}
                 </div>
@@ -212,7 +233,7 @@ export default function Home() {
       </main>
 
       <footer className="max-w-5xl mx-auto px-4 sm:px-8 py-8 border-t border-slate-900 text-center text-xs text-slate-600 font-mono">
-        © {new Date().getFullYear()} Khang Phạm Tuấn. Built with Next.js &amp; Tailwind CSS v4.
+        © {new Date().getFullYear()} / Khang Phạm Tuấn - Built with Next.js &amp; Tailwind CSS v4.
       </footer>
     </div>
   );
