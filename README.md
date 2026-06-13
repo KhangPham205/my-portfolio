@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Khang Phạm Tuấn - Personal Portfolio 🚀
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel)
 
-First, run the development server:
+Xin chào! Đây là mã nguồn website portfolio cá nhân của tôi, được xây dựng với mục đích giới thiệu về kỹ năng, kinh nghiệm làm việc và các dự án/nghiên cứu tôi đã tham gia.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌍 **Live Demo:** [https://my-portfolio-opal-kappa-49.vercel.app/](https://my-portfolio-opal-kappa-49.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 Về tôi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tôi là một **Software Engineer** và **AI Privacy Researcher** hiện đang học tập tại Đại học Công nghệ Thông tin (UIT) và làm việc tại TP.HCM. 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Chuyên môn Backend:** Java Spring Boot, Golang, Rust.
+* **Kiến trúc hệ thống:** Microservices, Event-Driven Architecture (Kafka), Clean Architecture.
+* **Nghiên cứu:** Độ tin cậy và Quyền riêng tư của AI (AI Reliability & Privacy).
 
-## Learn More
+## ✨ Tính năng của Website
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Giao diện Minimalist & Dark Mode:** Tập trung vào nội dung và trải nghiệm thị giác hiện đại.
+* **Responsive Design:** Hiển thị hoàn hảo trên cả thiết bị di động và máy tính bàn.
+* **Hiệu năng cao:** Tận dụng sức mạnh Server-Side Rendering (SSR) của Next.js App Router.
+* **Triển khai tự động:** Tích hợp CI/CD với Vercel.
