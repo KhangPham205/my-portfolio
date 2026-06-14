@@ -7,38 +7,49 @@ export const profile = {
   github: "https://github.com/KhangPham205",
   linkedin:
     "https://www.linkedin.com/in/khang-ph%E1%BA%A1m-tu%E1%BA%A5n-0503b5286/",
+  // Ảnh đại diện tròn ở section About
+  avatar: "/avatar.jpg",
+  // Ảnh nền cho hero landing page — đặt vào public/hero.jpg (hoặc .png, .webp)
+  heroImage: "/hero.png",
 };
 
 export const experiences = [
   {
     title: "Software Intern",
     company: "GreenNode - VNG Corp",
-    location: "TP. Hồ Chí Minh",
+    location: "Ho Chi Minh City",
     period: "04/2026 – now",
+    logo: "logos/vng.jpg",
     description:
       "Backend development, API design and distributed systems.",
   },
   {
     title: "Researcher",
     company: "UIT InSecLab",
-    location: "TP. Hồ Chí Minh",
+    location: "Ho Chi Minh City",
     period: "05/2025 – 05/2026",
+    logo: "logos/inseclab.png",
     description:
       "AI Privacy, Trustworthy AI and Reliability Research.",
   },
   {
     title: "Collaborator Developer",
     company: "GamApp Studio - UIT",
-    location: "TP. Hồ Chí Minh",
+    location: "Ho Chi Minh City",
     period: "03/2024 – 06/2024",
+    logo: "logos/gamapp.jpg",
     description:
-      "Phát triển game và ứng dụng di động trong môi trường câu lạc bộ sinh viên UIT.",
+      "Developed games and mobile applications within the UIT student club environment.",
   },
+];
+
+export const education = [
   {
-    title: "B.Sc. Software Engineering",
-    company: "UIT - VNU HCM",
-    location: "",
+    degree: "B.Sc. Software Engineering",
+    school: "UIT - VNU HCM",
+    location: "Ho Chi Minh City",
     period: "2023 – 2027",
+    logo: "logos/uit",
     description: "GPA 9.19/10 (4.0/4.0)",
   },
 ];
