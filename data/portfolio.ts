@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Khang Phạm Tuấn",
+  name: "Khang Pham Tuan",
   title: "Backend Engineer • AI Privacy Researcher",
   description:
     "Building scalable microservices, event-driven systems and privacy-preserving AI solutions.",
