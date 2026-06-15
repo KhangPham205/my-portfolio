@@ -52,6 +52,14 @@ export const education = [
     logo: "logos/uit",
     description: "GPA 9.19/10 (4.0/4.0)",
   },
+  {
+    degree: "IELTS 5.5",
+    school: "English Certification",
+    location: "",
+    period: "08/2024 – 08/2026",
+    logo: "logos/british-council.svg",
+    description: "English Proficiency Certificate",
+  },
 ];
 
 export interface Project {
