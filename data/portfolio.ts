@@ -19,7 +19,7 @@ export const profile = {
 export const highlights = [
   { value: "9.24", label: "GPA / 10 at UIT" },
   { value: "Silver", label: "VietFutureAward 2025" },
-  { value: "3", label: "Industry & research roles" },
+  { value: "4", label: "Industry & research roles" },
 ];
 
 export interface Experience {
@@ -33,13 +33,22 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    title: "Java Software Engineer",
+    company: "NAB Innovation Centre Vietnam",
+    location: "Ho Chi Minh City",
+    period: "11/2026 – Present",
+    logo: "/logos/nab.jpg",
+    description:
+      "Java software engineering internship in StarCamp Batch 24.",
+  },
+  {
     title: "Software Intern",
     company: "GreenNode - VNG Corp",
     location: "Ho Chi Minh City",
     period: "04/2026 – 10/2026",
     logo: "/logos/vng.jpg",
     description:
-      "Backend development, API design and distributed systems.",
+      "Participated in and completed the GreenNode Internship Program 2026, focusing on backend development, API design and distributed systems.",
   },
   {
     title: "Researcher",
